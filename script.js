@@ -133,3 +133,14 @@ window.addEventListener(
 
     }
 );
+
+// WORLD ENTRY
+
+const bootScreen = document.getElementById("boot-screen");
+const enterButton = document.getElementById("enter-button");
+
+enterButton.addEventListener("click", () => {
+
+    bootScreen.classList.add("hidden");
+
+});
