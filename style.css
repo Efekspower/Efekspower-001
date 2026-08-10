@@ -182,4 +182,14 @@ canvas {
     z-index: 1;
 }
 
+/* WORLD ENTRY TRANSITION */
+
+#boot-screen {
+    transition: opacity 1.5s ease;
+}
+
+#boot-screen.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
 
