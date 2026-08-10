@@ -1,4 +1,4 @@
-import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js";
+import * as THREE from "https://unpkg.com/three@0.180.0/build/three.module.js";
 
 // CYBERWORLD-001
 // Milestone 4 - First Three.js World
